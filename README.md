@@ -1,3 +1,19 @@
+# What is it?
+Code to varify cardit card of user
+
+To valide cardit card you have to apply two main issues:
+  1. Classification cardit card (Visa, Amrican Express..) - excute with Regex expression.
+  2. Math valid for the all digits - excute with Luhn Algoritem.
+  
+That code contain both of these issues
+
+This validation isn't ensure or replace confirmation of income.
+obviously, there is option which no money in the account. This validation is for prevent user typing mistakes.
+
+# How to use
+Download the zip file
+Open the project and write "npm i" in terminal to get relevant libraries.
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
