@@ -1,0 +1,55 @@
+/* Layout page */
+.payment-page{
+    flex-flow: wrap;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* Payment container */
+.payment-container{
+    display: inline-block;
+    margin: auto;
+    min-width: 280px;
+}
+
+/* Payment container */
+.payment-component-container {
+    margin: 170px 0 170px 0;
+    border-bottom: 1px solid #3195f0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* -- Decorative -- */
+.payment-decoration-container{
+    background-color: #3195f0;
+    width: 450px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Navigation decorative container */
+.nav-decorative-container {
+    display: inline-block;
+}
+
+/* Image Navigation decorative */
+.nav-decorative-container img{
+    height: 300px;
+    width: auto;
+}
+
+/* Symbol decorative container */
+.symbol-container {
+    display: inline-block;
+}
+
+/* Image Symbol decorative */
+.symbol-container img{
+    display: inline-block;
+    height: 200px;
+    width: auto;
+}
